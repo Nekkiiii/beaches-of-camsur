@@ -1,0 +1,115 @@
+#frontpage{
+    background-image: url('images/bgpicweb.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+    cursor: default;
+}
+.frontpage-container{
+    opacity: 90%;
+    width: 83%;
+    height: 780px;
+    margin: 70px auto;
+    margin-bottom: 0;
+    border-radius: 25px;
+    background-color: #0c0c0c;
+    background-position: center;
+    padding: 20px;
+}
+a{
+    position: relative;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+#mar{
+    margin-left: 62%;
+    padding: 0;
+}
+#ebc{
+    font-size: 68px;
+    margin-left: 130px;
+    margin-top: 110px;
+    margin-bottom: 0;
+    color: white;
+    padding: 0;
+}
+#qoute{
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 15%;
+    padding: 0;
+}
+
+#paragraph{
+    color: white;
+    position: relative;
+    margin-left: 47%;
+    margin-right: 5%;
+    top: -170px;
+    font-size: 22px;
+    margin-bottom: 0;
+    padding: 0;
+}
+#camsur{
+    color: white;
+    position: relative;
+    top: -160px;
+    margin-left: 45%;
+    padding: 0;
+}
+div#beaches{
+    cursor: none;
+    position: absolute;
+    top: 660px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.img{
+    cursor: default;
+    transition: 1s;
+}
+.img:hover{
+    transform:scale(1.2);
+    z-index: 2;
+}
+img{
+    border-radius: 10px;
+}
+a:hover{
+    color: cyan;
+}
+#explore{
+    background-size: 50px;
+    border: solid skyblue;
+    margin-left: 25%;
+    border-radius: 100px;
+    position: absolute;
+    font-size: 18px;
+    padding: 5px 20px;
+    color: white;
+    overflow: hidden;
+    font-family: Poppins;
+}
+
+#explore:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: skyblue;
+    z-index: -1;
+    transition: left 0.3s ease-in-out;
+  }
+
+#explore:hover::before {
+    left: 0;
+  }

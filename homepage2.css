@@ -1,0 +1,215 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.link-container{
+    display:inline-block;
+    position: relative;
+    top: 7px;
+    padding: 30px;
+}
+body{
+    background-color: white;
+}
+nav{
+    text-align: right;
+    width: 100%;
+    background-size: 100%;
+    background-color: black;
+    position: fixed;
+    min-width: 600px;
+}
+.nav-link{
+    justify-content: right;
+    float: right;
+    margin-right: 30px;
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: #a0a0a0;
+    font-size: 18px;
+
+}
+.nav-link:after{
+    content: "";
+    position: absolute;
+    background-color: cyan;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+.nav-link:hover{
+    color: rgb(221, 233, 241);
+}
+.nav-link:hover:after{
+    width: 100%;
+}
+.logo{
+    padding: 10px;
+    left: 20px;
+    margin: 0;
+    position: relative;
+    float: left;
+}
+button{
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aquamarine;
+    cursor: pointer;
+    float: left;
+    left: 20%;
+    top: 30px;
+}
+.search{
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color: black;
+    padding: 10px;
+    position: relative;
+    border-radius: 10px;
+    font-size: 14px;
+    left: 20%;
+    top: 30px;
+}
+.image-container{
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 0px;
+    background-color: whitesmoke;
+    z-index: -1;
+    width: 70%;
+    left: 15%;
+    border-style: groove;
+}
+.title{
+    left: 15px;
+    margin-top: 190px;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+.beach-description{
+    padding: 10px;
+    font-size: 18px;
+    font-family: Merriweather;
+}
+.beach-flex{
+    position: relative;
+    display: flex;
+}
+.beach-name{
+    left: 15px;
+    margin-top: 50px;
+    font-family: poppins;
+    position: relative;
+    padding: 20px;
+    font-size: 24px;
+    display: block;
+}
+.beach-img{
+    margin-left: 15px;
+    border-radius: 10px;
+    position: relative;
+    width: 400px;
+    height: 310px;
+}
+.map{
+    margin-left: 15px;
+    position: relative;
+    padding: 10px;
+    display: inline;
+}
+h1{
+    background-image: url(images/bgpicweb.jpg);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-size: 100%;
+    position: relative;
+    top: 110px;
+    text-decoration: underline;
+    font-family: poppins;
+    text-align: center;
+    display: flex;
+    font-size: 48px;
+    margin: 0;
+    padding: 30px;
+}
+.list-container{
+    font-family: Verdana;
+    font-size: 24px;
+    margin-left: 50px;
+    display: inline;
+    position: relative;
+    display: block;
+    top: 120px;
+    margin-bottom: 50px;
+}
+.dos-container{
+    font-family: Verdana;
+    position: relative;
+    margin-left: 100px;
+    margin-bottom: 80px;
+}
+h3{
+    font-size: 30px;
+}
+li{
+    font-size: 20px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+h2{
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.dos-list{
+    text-align: center;
+    text-decoration: underline;
+}
+
+footer{
+    height: 350px;
+    position: relative;
+    width: 100%;
+    border-radius: 5px;
+}
+.ft-cname{
+    border: solid rgb(122, 72, 72);
+    margin: 0;
+    text-align: center;
+    font-size: 80px;
+    font-family: sansita;
+    padding-bottom: 10px;  
+}
+.description{
+    font-style: italic;
+    opacity: 50%;
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 10px;
+}
+.cp{
+    color: rgb(39, 46, 46);
+    font-family: Verdana;
+    margin-top: 20px;
+    text-align: center;
+}
+.contactus{
+    z-index: 1;
+}
+.icons{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
